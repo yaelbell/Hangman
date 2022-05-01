@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #2b292e;
+  background-image: url("https://images.unsplash.com/photo-1586074299757-dc655f18518c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  color: #fafafa;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+span {
+  border: 2px solid #a79f9f;
+  border-bottom: 3px solid #8f8888;
+  display: inline-block;
+  font-size: 2rem;
+  /* height: 2.4rem; */
+  line-height: 2.4rem;
+  margin: 0 0.1rem;
+  padding: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  /* width: 2.4rem; */
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+  color: #2b292e;
+}
+
+.puzzle {
+  display: flex;
+  margin-bottom: 4.8rem;
+}
+
+.button {
+  background: #424d54;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-family: "PT Serif", serif;
+  padding: 0.8rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background: #777e82;
+}
